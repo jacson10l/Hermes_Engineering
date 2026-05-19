@@ -1,0 +1,7 @@
+WS reconnect guidelines:
+
+- use single connection ownership
+- avoid duplicate subscriptions
+- prefer retry backoff
+- isolate heartbeat lifecycle
+- maintain explicit reconnect state
