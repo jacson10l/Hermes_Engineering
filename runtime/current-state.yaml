@@ -1,0 +1,19 @@
+project: example-project
+
+current_ticket: none
+
+phase: initialization
+
+active_goal:
+  bootstrap hermes runtime
+
+active_constraints:
+  - token efficient
+  - retrieval first
+  - summary first
+
+active_skills:
+  - architecture/runtime
+
+active_agents:
+  - architect
